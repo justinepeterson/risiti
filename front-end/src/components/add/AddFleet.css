@@ -1,0 +1,82 @@
+.form-control {
+	border-color: #eee;
+	min-height: 41px;
+	box-shadow: none !important;
+}
+.form-control:focus {
+	border-color: #5cd3b4;
+}
+.form-control,
+.btn {
+	border-radius: 3px;
+}
+.fleet-form {
+	width: 500px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+.fleet-form h2 {
+	color: #333;
+	margin: 0 0 30px 0;
+	display: inline-block;
+	padding: 0 30px 10px 0;
+	border-bottom: 3px solid #5cd3b4;
+}
+.fleet-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #fff;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.fleet-form .form-group row {
+	margin-bottom: 20px;
+}
+.fleet-form label {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 2;
+}
+.fleet-form input[type="checkbox"] {
+	position: relative;
+	top: 1px;
+}
+.fleet-form .btn {
+	font-size: 16px;
+	font-weight: bold;
+	background: #5cd3b4;
+	border: none;
+	margin-top: 20px;
+	min-width: 140px;
+}
+.fleet-form .btn:hover,
+.fleet-form .btn:focus {
+	background: #41cba9;
+	outline: none !important;
+}
+.fleet-form a {
+	color: #5cd3b4;
+	text-decoration: underline;
+}
+.fleet-form a:hover {
+	text-decoration: none;
+}
+.fleet-form form a {
+	color: #5cd3b4;
+	text-decoration: none;
+}
+.fleet-form form a:hover {
+	text-decoration: underline;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 0 60px;
+}
+
+.header .close {
+	color: red;
+}
